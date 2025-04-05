@@ -10,7 +10,7 @@ luas_segitiga = n/2 * n
 #menghitung luas trapesium
 luas_trapesium = (n + m) * n / 2
 #menghitung luas setengah lingkaran
-luas_setengahlingkaran = (math.pi * n**2) / 2
+luas_setengahlingkaran = (math.pi * (n/2)**2) / 2
 #menghitung luas total
 jumlah_luas = luas_pesergi + luas_segitiga + luas_trapesium + luas_setengahlingkaran
 jumlah_luas = round(jumlah_luas, 2)
